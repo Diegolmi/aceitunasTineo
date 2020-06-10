@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './1.jpeg';
+import logo from '../src/assents/img/logoTineo1.svg';
 import './App.css';
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          <h1>Te amo , <br />Preciosa</h1>
+          <h1>Aceitunas<br />Tineo</h1>
         </p>
         
       </header>
