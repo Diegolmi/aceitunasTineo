@@ -1,18 +1,20 @@
-import React from 'react';
-import logo from '../src/assents/img/logoTineo1.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import NavbarPage from "./components/Navbar/NavbarPage";
+import Landing from "./Pages/Landing";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          <h1>Aceitunas<br />Tineo</h1>
-        </p>
-        
-      </header>
-    </div>
+    <>
+      <NavbarPage />
+      <Router>
+        <Switch>
+          <Route path="/">
+            <Landing />
+          </Route>
+        </Switch>
+      </Router>
+    </>
   );
 }
 

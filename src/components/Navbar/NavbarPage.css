@@ -1,0 +1,33 @@
+/*IMPORTAR TIPOGRAFIA*/
+@font-face{
+    font-family: "Homework";
+    src: url("../../Fonts/FontsFree-Net-Homework.ttf");
+}
+@font-face{
+    font-family: "Poetsen One";
+    src: url(../../Fonts/PoetsenOne-Regular.ttf);
+}
+
+/* .toggle-navbar{
+    color: #f1b634 !important;
+    background: #f1b634 !important;
+    
+} */
+.logo-nav{
+    width: 120px;
+    height: 80px;
+}
+
+.link-nav{
+    text-decoration: none !important;
+    margin-right: 15px;
+    color: #623262;
+    font-size: 30px;
+    font-weight: 800;
+    font-family: "Homework";
+}
+
+.link-nav:hover{
+    color: #f1b634;
+    transition: .2s;
+}
