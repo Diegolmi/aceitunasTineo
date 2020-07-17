@@ -8,6 +8,10 @@
     src: url(../../Fonts/PoetsenOne-Regular.ttf);
 }
 
+.navbar-page{
+    background: #fff;
+}
+
 /* .toggle-navbar{
     color: #f1b634 !important;
     background: #f1b634 !important;
