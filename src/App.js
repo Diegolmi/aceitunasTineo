@@ -2,6 +2,8 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import NavbarPage from "./components/Navbar/NavbarPage";
 import Landing from "./Pages/Landing";
+import ContactForm from "./Pages/SeccionContacto/ContactForm";
+
 
 function App() {
   return (
@@ -9,9 +11,10 @@ function App() {
       <NavbarPage />
       <Router>
         <Switch>
-          <Route path="/">
-            <Landing />
-          </Route>
+          <Route exact path="/" component={Landing} />
+          <Route exact path="/contacto" component={ContactForm} />
+            
+            
         </Switch>
       </Router>
     </>

@@ -21,13 +21,13 @@
 .link-nav{
     text-decoration: none !important;
     margin-right: 15px;
-    color: #623262;
+    color: #623262 !important;
     font-size: 30px;
     font-weight: 800;
     font-family: "Homework";
 }
 
 .link-nav:hover{
-    color: #f1b634;
+    color: #f1b634 !important;
     transition: .2s;
 }
