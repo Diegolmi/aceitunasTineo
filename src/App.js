@@ -1,23 +1,23 @@
-import React from 'react';
-import logo from '../src/assents/img/logoTineo1.svg';
-import Navbar from '../src/components/Navbar/Navbar'
-import 'mdbreact/dist/css/mdb.css';
+import React from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import NavbarPage from "./components/Navbar/NavbarPage";
+import Landing from "./Pages/Landing";
+import ContactForm from "./Pages/SeccionContacto/ContactForm";
 
-import './App.css';
 
 function App() {
   return (
-    <div className="App">
-
-      <Navbar />
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          <h1>Aceitunas<br />Tineo</h1>
-        </p>
-        
-      </header>
-    </div>
+    <>
+      <NavbarPage />
+      <Router>
+        <Switch>
+          <Route exact path="/" component={Landing} />
+          <Route exact path="/contacto" component={ContactForm} />
+            
+            
+        </Switch>
+      </Router>
+    </>
   );
 }
 
