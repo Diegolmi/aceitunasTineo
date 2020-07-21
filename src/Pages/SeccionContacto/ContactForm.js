@@ -31,15 +31,15 @@ const ContactForm = () => {
                                 ref={register({
                                     required: {
                                         value: true, 
-                                        message: 'Nombre es requerido'
+                                        message: 'ingresa tu nombre completo'
                                         }, 
                                     maxLength: {
                                         value: 15, 
                                         message: 'No más de 15 carácteres!'
                                         },
                                     minLength: {
-                                        value: 2, 
-                                        message: 'Mínimo 2 carácteres'
+                                        value: 7, 
+                                        message: 'Mínimo 7 carácteres'
                                         }
                                     })}
                             />
@@ -56,7 +56,7 @@ const ContactForm = () => {
                                 ref={register({
                                     required: {
                                         value: true, 
-                                        message: 'Email es requerido'
+                                        message: 'ingresa tu email'
                                         }, 
                                     })}
                             />
@@ -72,7 +72,7 @@ const ContactForm = () => {
                                 ref={register({
                                     required: {
                                         value: true, 
-                                        message: 'Telefono o celular es requerido'
+                                        message: 'Telefono o celular es necesario'
                                         }, 
                                     })}
                             />
@@ -88,7 +88,7 @@ const ContactForm = () => {
                                 ref={register({
                                     required: {
                                         value: true, 
-                                        message: 'el Asunto es requerido'
+                                        message: 'ingresa el asunto del mensaje'
                                         }, 
                                     })}
                             />
@@ -104,7 +104,7 @@ const ContactForm = () => {
                                 ref={register({
                                     required: {
                                         value: true, 
-                                        message: 'Consulta es requerido'
+                                        message: 'Ingresa tu consulta'
                                         }, 
                                     maxLength: {
                                         value: 200, 

@@ -10,6 +10,7 @@
 
 .navbar-page{
     background: #fff;
+    box-shadow: 0 0 20px 0 rgba(98, 50, 98, 0.6);
 }
 
 /* .toggle-navbar{
@@ -26,7 +27,7 @@
     text-decoration: none !important;
     margin-right: 15px;
     color: #623262 !important;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 800;
     font-family: "Homework";
 }

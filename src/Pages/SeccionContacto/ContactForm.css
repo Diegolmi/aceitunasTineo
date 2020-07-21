@@ -1,7 +1,6 @@
 .body-contact {
-    
-  height: 100vh;
-  color: #623262;
+  height: 100%;
+  color: #f1b634;
   font-family: "Poetsen One", "Homework";
   padding: 0 1.5em;
 }
@@ -15,23 +14,26 @@
 }
 
 .logo-contact {
-    color: #f1b634;
+  color: #623262;
   text-align: center;
-  font-size: 3em;
+  font-size: 2em;
   text-transform: uppercase;
 }
 
 .contact-wrapper {
-    box-shadow: 0 0 20px 0 rgba(241, 182, 52, 0.6);
+    box-shadow: 0 0 20px 0 rgba(98, 50, 98, 0.6);
 }
 
 .contact-wrapper > * {
   padding: 1em;
 }
 
+.contact-form{
+    border: 1px solid #623262;
 
+}
 .contact-form form {
-    color: #f1b634;
+    color: #623262;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -52,13 +54,13 @@
   padding: 0.7em;
   border: none;
   background: none;
-  border-bottom: 1px solid #f1b634;
+  border-bottom: 1px solid #623262;
   outline: none;
-  color: #f1b634;
+  color: #623262;
 }
 .contact-form form button {
-  background: #f1b634;
-  color: #623262;
+  background: #623262;
+  color: #f1b634;
   border: 0;
   text-transform: uppercase;
   padding: 1em;
@@ -66,17 +68,19 @@
 }
 .contact-form form button:hover,
 .contact-form form button:focus {
-  background: #623262;
-  color: #f1b634;
+  background: #f1b634;
+  color: #623262;
   transition: background-color 1s ease-out;
   outline: 0;
-  box-shadow: 0 0 20px 0 rgba(241, 182, 52, 0.8);
+  /* box-shadow: 0 0 20px 0 rgba(98, 50, 98, 0.6); */
 }
 
 .contact-info {
+    /* font-family: 'homework'; */
     height: 100%;
-  background: #f1b634;
+  background: #623262;
   margin-bottom: 15px;
+  /* font-size: 20px; */
 
 }
 
@@ -104,7 +108,7 @@
     background: none !important;
     border: none !important;
     font-size: 2rem !important;
-    color: #623262 !important;
+    color: #f1b634 !important;
     outline: 0 !important;
 }
 
@@ -127,5 +131,8 @@
   .contact-info p {
     padding: 1em;
     text-align: left;
+  }
+  .logo-contact{
+    font-size: 3em;
   }
 }
