@@ -14,10 +14,10 @@ const NavbarPage = () => {
     <Navbar.Toggle className="toggle-navbar" aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav">
       <Nav className="ml-auto">
-        <Nav.Link href="/" className="link-nav">Inicio</Nav.Link>
-        <Nav.Link className="link-nav">Quienes Somos</Nav.Link>
-        <Nav.Link className="link-nav">Productos</Nav.Link>
-        <Nav.Link href="/contacto" className="link-nav">Contacto</Nav.Link>
+        <Link to="/" className="link-nav">Inicio</Link>
+        <Link className="link-nav">Quienes Somos</Link>
+        <Link className="link-nav">Productos</Link>
+        <Link to="/contacto" className="link-nav">Contacto</Link>
       </Nav>
     </Navbar.Collapse>
   </Navbar> 
