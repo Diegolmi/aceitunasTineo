@@ -9,8 +9,8 @@
 }
 
 .navbar-page{
-    background: #fff;
-    box-shadow: 0 0 20px 0 rgba(98, 50, 98, 0.6);
+    background: none;
+    transition: .5s;
 }
 
 /* .toggle-navbar{
@@ -18,6 +18,12 @@
     background: #f1b634 !important;
     
 } */
+
+.navbar-back-scroll{
+    background: white;
+    transition: .6s;
+}
+
 .logo-nav{
     width: 120px;
     height: 80px;
@@ -27,9 +33,9 @@
     text-decoration: none !important;
     margin-right: 15px;
     color: #623262 !important;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 800;
-    font-family: "Homework";
+    font-family: "Poetsen One";
 }
 
 .link-nav:hover{

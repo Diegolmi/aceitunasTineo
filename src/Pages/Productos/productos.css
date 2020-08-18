@@ -1,0 +1,87 @@
+/*IMPORTAR TIPOGRAFIA*/
+@font-face{
+    font-family: "Homework";
+    src: url("../../Fonts/FontsFree-Net-Homework.ttf");
+}
+@font-face{
+    font-family: "Poetsen One";
+    src: url(../../Fonts/PoetsenOne-Regular.ttf);
+}
+
+.product-container{
+    height: 100%;
+    margin: 0 20px;
+    /* margin-top: 100px; */
+}
+.title-product{
+    font-family: 'Poetsen One';
+    text-align: center;
+    /* border-bottom: 2px solid blue; */
+    margin-bottom: 90px;
+}
+.product-name{
+    text-align: center;
+    font-family: "Poetsen One";
+    margin: 30px 0;
+    text-transform: uppercase;
+}
+.image-container img {
+    height: 450px;
+    width: 300px;
+}
+
+.container-info-product{
+    height: 25%;
+    font-family: 'Homework';
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-bottom: 3px solid #623262;
+}
+.container-info-product1:last-child{
+    border-bottom: none;
+}
+.container-info-product1{
+    height: 25%;
+    font-family: 'Homework';
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-bottom: 3px solid #623262;
+}
+
+ul li{
+    list-style: none;
+    transition: .5s;
+}
+
+.icon-product{
+    color: #623262;
+}
+
+@media only screen and (max-width: 600px) {
+    .product-container{
+        margin-top: 150px;
+    }
+    .container-info-product{
+        flex-wrap: nowrap;
+        flex-direction: column;
+        height: 100%;
+        margin: 50px 10px;
+        border-bottom: 3px solid #623262;
+    }
+    .container-info-product1{
+        flex-wrap: nowrap;
+        flex-direction: column-reverse;
+        height: 100%;
+        margin: 50px 10px;
+        border-bottom: 3px solid #623262;
+    }
+    ul{
+        margin-bottom: 45px;
+    }
+  }

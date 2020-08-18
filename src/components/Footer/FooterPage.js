@@ -2,7 +2,7 @@ import React from "react";
 import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
 import { Link } from 'react-router-dom'
 import './FooterPage.css';
-import { FaFacebookSquare, FaInstagram, FaWhatsapp } from 'react-icons/fa';
+import { FaFacebookSquare, FaInstagram } from 'react-icons/fa';
 
 const FooterPage = () => {
   return (
@@ -26,7 +26,7 @@ const FooterPage = () => {
                 <Link className="link-footer" to="/">Quienes Somos</Link>
               </li>
               <li className="list-unstyled">
-                <Link className="link-footer" to="/">Productos</Link>
+                <Link className="link-footer" to="/productos">Productos</Link>
               </li>
               <li className="list-unstyled">
                 <Link className="link-footer" to="/contacto">Contacto</Link>
@@ -37,10 +37,10 @@ const FooterPage = () => {
             <h5 className="title">Redes Sociales:</h5>
             <ul>
               <li className="list-unstyled">
-                <a className="link-footer" target="_blank" href="https://www.facebook.com/TineoArg"><FaFacebookSquare className="footer-icon" /></a>
+                <a className="link-footer" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/TineoArg"><FaFacebookSquare className="footer-icon" /></a>
               </li>
               <li className="list-unstyled">
-                <a className="link-footer" target="_blank" href="https://www.instagram.com/tineoarg/"><FaInstagram className="footer-icon" /></a>
+                <a className="link-footer" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/tineoarg/"><FaInstagram className="footer-icon" /></a>
               </li>
               
               
