@@ -4,6 +4,7 @@
     font-size: 1rem;
 }
 
+
 .link-footer{
     text-decoration: none !important;
     color: #623262;
@@ -19,4 +20,10 @@
 
 .footer-copyright{
     border-top: 1px solid #623262 !important;
+}
+
+.logo-tineo-footer{
+    margin-top: -18px;
+    width: 250px;
+    height: 150px;
 }

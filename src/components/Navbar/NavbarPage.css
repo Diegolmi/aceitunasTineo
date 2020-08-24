@@ -9,8 +9,7 @@
 }
 
 .navbar-page{
-    background: none;
-    transition: .5s;
+    background: white;
 }
 
 /* .toggle-navbar{

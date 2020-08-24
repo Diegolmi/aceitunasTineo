@@ -2,7 +2,6 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import NavbarPage from "./components/Navbar/NavbarPage";
 import Landing from "./Pages/Landing";
-import ContactForm from "./Pages/SeccionContacto/ContactForm";
 import FooterPage from "./components/Footer/FooterPage";
 import Productos from "./Pages/Productos/Productos";
 
@@ -16,7 +15,6 @@ function App() {
       <NavbarPage />
         <Switch>
           <Route exact path="/" component={Landing} />
-          <Route exact path="/contacto" component={ContactForm} />
           <Route exact path="/productos" component={Productos} />
         </Switch>
         <FooterPage />

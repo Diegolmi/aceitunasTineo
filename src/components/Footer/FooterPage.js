@@ -3,18 +3,15 @@ import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
 import { Link } from 'react-router-dom'
 import './FooterPage.css';
 import { FaFacebookSquare, FaInstagram } from 'react-icons/fa';
+import Logo from '../../assets/img/logoTineo.png';
 
 const FooterPage = () => {
   return (
     <MDBFooter className="font-small pt-4 mt-4 footer-body">
-      <MDBContainer fluid className="text-center text-md-left">
+      <MDBContainer fluid className="text-center text-md-left footer-body-with">
         <MDBRow>
-          <MDBCol md="4">
-            <h5 className="title">Footer Content</h5>
-            <p>
-              Here you can use rows and columns here to organize your footer
-              content.
-            </p>
+          <MDBCol md="4"> 
+            <img className="logo-tineo-footer img-fluid" src={Logo} alt="Tineo_Logo"/>
           </MDBCol>
           <MDBCol md="4">
             <h5 className="title">Contenido</h5>

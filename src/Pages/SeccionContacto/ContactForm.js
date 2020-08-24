@@ -154,9 +154,6 @@ const ContactForm = () => {
             <h4>Mas Información</h4>
             <ul>
               <li>
-                <GoLocation /> direccion
-              </li>
-              <li>
                 {" "}
                 <FiPhoneCall /> Atención al consumidor (011) 4458-1135
               </li>

@@ -29,7 +29,7 @@ const GaleriaImagenes = () => {
             <Link to="productos" className="button">Ver Más</Link>
           </div>
         </div>
-        <div className="imagen">
+        {/* <div className="imagen">
           <img src={img1} alt="" />
           <div className="overlay3">
           <h4>Aceitunas Premium</h4>
@@ -56,8 +56,8 @@ const GaleriaImagenes = () => {
           <h4>Aceituna Descarozada</h4>
             <Link to="productos" className="button">Ver Más</Link>
           </div>
-        </div>
-        <div className="imagen">
+        </div> */}
+        {/* <div className="imagen">
           <img src={img1} alt="" />
           <div className="overlay7">
           <h4>Pickles</h4>
@@ -77,7 +77,7 @@ const GaleriaImagenes = () => {
             <h4>Ajies</h4>
             <Link to="productos" className="button">Ver Más</Link>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
