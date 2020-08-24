@@ -10,7 +10,7 @@ import ContactForm from "../SeccionContacto/ContactForm";
 const HomePage = () => {
   return (
     <>
-    <div className="seccion-principal">
+    <div className="seccion-principal" id="inicio">
       {/* <Carousel /> */}
       <div className="seccion-logo">
       <img className="logo-seccion-principal animate__animated animate__fadeInLeftBig" src={logo} alt="" />

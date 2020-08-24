@@ -1,5 +1,5 @@
 import React from "react";
-import img1 from "../../assets/img/PNG/Doy pack grande/Negra x180.png";
+import img1 from "../../assets/img/PNG/DoyPackChico/Verdex100.jpg";
 import { Link } from "react-router-dom";
 
 
@@ -11,22 +11,22 @@ const GaleriaImagenes = () => {
         <div className="imagen">
           <img src={img1} alt="" />
           <div className="overlay">
-          <h4>Cobertura para Pizza</h4>
-            <Link  to="productos" className="button">Ver Más</Link>
+          <h4>Pack Chico</h4>
+            <a  href="productos" className="button">Ver Más</a>
           </div>
         </div>
         <div className="imagen">
           <img src={img1} alt="" />
           <div className="overlay1">
-          <h4>Aceitunas Verdes</h4>
-            <Link to="productos" className="button">Ver Más</Link>
+          <h4>Pack Grande</h4>
+            <a href="productos" className="button">Ver Más</a>
           </div>
         </div>
         <div className="imagen">
           <img src={img1} alt="" />
           <div className="overlay2">
-          <h4>Aceitunas C/ Morron</h4>
-            <Link to="productos" className="button">Ver Más</Link>
+          <h4>Sachet</h4>
+            <a href="productos" className="button">Ver Más</a>
           </div>
         </div>
         {/* <div className="imagen">

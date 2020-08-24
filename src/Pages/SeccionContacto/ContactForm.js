@@ -41,7 +41,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="body-contact">
+    <div className="body-contact" id="contacto">
       <div className="content">
         <h1 className="logo-contact my-5">Contactanos</h1>
 
