@@ -4,7 +4,7 @@ import NavbarPage from "./components/Navbar/NavbarPage";
 import Landing from "./Pages/Landing";
 import ContactForm from "./Pages/SeccionContacto/ContactForm";
 import FooterPage from "./components/Footer/FooterPage";
-import Productos from "./Pages/Productos/Productos";
+import DoyPackChico from "./Pages/Productos/DoyPackChico";
 
 
 
@@ -17,7 +17,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={Landing} />
           <Route exact path="/contacto" component={ContactForm} />
-          <Route exact path="/productos" component={Productos} />
+          <Route exact path="/productos" component={DoyPackChico} />
         </Switch>
         <FooterPage />
       </Router>

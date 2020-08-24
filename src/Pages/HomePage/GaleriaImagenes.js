@@ -1,5 +1,5 @@
 import React from "react";
-import img1 from "../../assets/img/PNG/Doy pack grande/Negra x180.png";
+import img1 from "../../assets/img/PNG/DoyPackChico/Verdex100.jpg";
 import { Link } from "react-router-dom";
 
 
