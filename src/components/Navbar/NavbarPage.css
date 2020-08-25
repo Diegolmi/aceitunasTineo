@@ -42,3 +42,11 @@
     color: #f1b634 !important;
     transition: .2s;
 }
+
+.navbar-light .navbar-nav .nav-link {
+    color: #623262 !important;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #f1b634 !important;
+    transition: .2s;
+}

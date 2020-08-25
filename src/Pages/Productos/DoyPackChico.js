@@ -13,7 +13,7 @@ import { FaCheck } from 'react-icons/fa';
 
 const DoyPackChico = () => {
   return (
-    <div className="product-container">
+    <div className="product-container" id="packchico">
       
         <h1 className="title-product">Nuestros Productos</h1>
      

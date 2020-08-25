@@ -12,7 +12,7 @@ const About = () => {
           sabores distinguidos y a precios accesibles.
             <br/>
             <br/>
-          <blockquote>En cada paso, Tineo
+          <blockquote>En cada paso, <span>Tineo</span> {' '}
           piensa en vos.</blockquote>
         </p>
         

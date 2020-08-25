@@ -13,11 +13,9 @@ const HomePage = () => {
     <div className="seccion-principal" id="inicio">
       {/* <Carousel /> */}
       <div className="seccion-logo">
-      <img className="logo-seccion-principal animate__animated animate__fadeInLeftBig" src={logo} alt="" />
+      <img className="img-fluid logo-seccion-principal animate__animated animate__fadeInLeftBig" src={logo} alt="" />
       </div>
-      <div className="seccion-logo">
-      <img className="logo-seccion-principal animate__animated animate__fadeInRightBig" src={logo} alt="" />
-      </div>
+      
     </div>
     <About />
     <GaleriaImagenes />

@@ -17,16 +17,16 @@ const FooterPage = () => {
             <h5 className="title">Contenido</h5>
             <ul>
               <li className="list-unstyled">
-                <Link className="link-footer" to="/">Inicio</Link>
+                <a className="link-footer" href="#inicio">Inicio</a>
               </li>
               <li className="list-unstyled">
-                <Link className="link-footer" to="/">Quienes Somos</Link>
+                <a className="link-footer" href="#about">Quienes Somos</a>
               </li>
               <li className="list-unstyled">
-                <Link className="link-footer" to="/productos">Productos</Link>
+                <a className="link-footer" href="#productos">Productos</a>
               </li>
               <li className="list-unstyled">
-                <Link className="link-footer" to="/contacto">Contacto</Link>
+                <a className="link-footer" href="#contacto">Contacto</a>
               </li>
             </ul>
           </MDBCol>

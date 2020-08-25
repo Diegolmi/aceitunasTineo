@@ -10,24 +10,27 @@
 
 .seccion-principal{
     width: 100%;
-    height: 100vh;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     /* background: #fff; */
-    background: lightblue;
+    /* background: lightblue; */
+    background: url('../../assets/img/aceituna-imagen.jpg')no-repeat center center;
+    background-size: cover;
 }
 
 .seccion-logo{
-    width: 50%;
+    width: 100%;
+    
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .logo-seccion-principal{
-    height: 300px;
-    width: 400px;
+    height: 600px;
+    width: 700px;
 }
 
 /*GALERIA DE IMAGENES CON OVERLAY*/
@@ -50,7 +53,7 @@
     width: 32%;
     position: relative;
     height:250px;
-    margin-bottom:5px;
+    margin:10px;
     box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .75)
 }
 .imagen img{
@@ -59,36 +62,7 @@
     object-fit: contain;
 }
 
-.overlay{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    background:rgba(0, 118, 192, 0.781) ;
-    width: 100%;
-    height: 0;
-    overflow: hidden;
-    transition: .5s ease;
-}
-.overlay1{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    background:rgba(255, 82, 0, 0.781) ;
-    width: 100%;
-    height: 0;
-    overflow: hidden;
-    transition: .5s ease;
-}
-.overlay2{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    background:rgba(151, 37, 44, 0.781) ;
-    width: 100%;
-    height: 0;
-    overflow: hidden;
-    transition: .5s ease;
-}
+
 .overlay3{
     position: absolute;
     bottom: 0;
@@ -99,115 +73,9 @@
     overflow: hidden;
     transition: .5s ease;
 }
-.overlay4{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    background:rgba(74, 48, 36, 0.781) ;
-    width: 100%;
-    height: 0;
-    overflow: hidden;
-    transition: .5s ease;
-}
-.overlay5{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    background:rgba(199, 37, 115, 0.781) ;
-    width: 100%;
-    height: 0;
-    overflow: hidden;
-    transition: .5s ease;
-}
-.overlay6{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    background:rgba(241, 182, 52, 0.781) ; 
-    width: 100%;
-    height: 0;
-    overflow: hidden;
-    transition: .5s ease;
-}
-.overlay7{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    background:rgba(127, 211, 68, 0.781) ; 
-    width: 100%;
-    height: 0;
-    overflow: hidden;
-    transition: .5s ease;
-}
-.overlay8{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    background:rgba(31, 73, 182, 0.781) ; 
-    width: 100%;
-    height: 0;
-    overflow: hidden;
-    transition: .5s ease;
-}
-.overlay9{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    background:rgba(126, 73, 150, 0.781) ; 
-    width: 100%;
-    height: 0;
-    overflow: hidden;
-    transition: .5s ease;
-}
 
-.overlay .button{
-    text-decoration: none;
-    background: #fff;
-    border:none;
-    border-radius: 3px;
-    padding: 5px;
-    color: #000;
-    font-weight: 300;
-    font-size:30px;
-    position: absolute;
-    top: 50%;
-    left:50%;
-    text-align: center;
-    transform: translate(-50%, -50%);
-    margin-top: 30px;
-}
-.overlay1 .button{
-    text-decoration: none;
-    background: #fff;
-    border:none;
-    border-radius: 3px;
-    padding: 5px;
-    color: #000;
-    font-weight: 300;
-    font-size:30px;
-    position: absolute;
-    top: 50%;
-    left:50%;
-    text-align: center;
-    transform: translate(-50%, -50%);
-    margin-top: 30px;
-}
-.overlay2 .button{
-    text-decoration: none;
-    background: #fff;
-    border:none;
-    border-radius: 3px;
-    padding: 5px;
-    color: #000;
-    font-weight: 300;
-    font-size:30px;
-    position: absolute;
-    top: 50%;
-    left:50%;
-    text-align: center;
-    transform: translate(-50%, -50%);
-    margin-top: 30px;
-}
+
+
 .overlay3 .button{
     text-decoration: none;
     background: #fff;
@@ -223,174 +91,13 @@
     text-align: center;
     transform: translate(-50%, -50%);
     margin-top: 30px;
+    font-family: 'Homework';
 }
-.overlay4 .button{
-    text-decoration: none;
-    background: #fff;
-    border:none;
-    border-radius: 3px;
-    padding: 5px;
-    color: #000;
-    font-weight: 300;
-    font-size:30px;
-    position: absolute;
-    top: 50%;
-    left:50%;
-    text-align: center;
-    transform: translate(-50%, -50%);
-    margin-top: 30px;
-}
-.overlay5 .button{
-    text-decoration: none;
-    background: #fff;
-    border:none;
-    border-radius: 3px;
-    padding: 5px;
-    color: #000;
-    font-weight: 300;
-    font-size:30px;
-    position: absolute;
-    top: 50%;
-    left:50%;
-    text-align: center;
-    transform: translate(-50%, -50%);
-    margin-top: 30px;
-}
-.overlay6 .button{
-    text-decoration: none;
-    background: #fff;
-    border:none;
-    border-radius: 3px;
-    padding: 5px;
-    color: #000;
-    font-weight: 300;
-    font-size:30px;
-    position: absolute;
-    top: 50%;
-    left:50%;
-    text-align: center;
-    transform: translate(-50%, -50%);
-    margin-top: 30px;
-}
-.overlay7 .button{
-    text-decoration: none;
-    background: #fff;
-    border:none;
-    border-radius: 3px;
-    padding: 5px;
-    color: #000;
-    font-weight: 300;
-    font-size:30px;
-    position: absolute;
-    top: 50%;
-    left:50%;
-    text-align: center;
-    transform: translate(-50%, -50%);
-    margin-top: 30px;
-}
-.overlay8 .button{
-    text-decoration: none;
-    background: #fff;
-    border:none;
-    border-radius: 3px;
-    padding: 5px;
-    color: #000;
-    font-weight: 300;
-    font-size:30px;
-    position: absolute;
-    top: 50%;
-    left:50%;
-    text-align: center;
-    transform: translate(-50%, -50%);
-    margin-top: 30px;
-}
-.overlay9 .button{
-    text-decoration: none;
-    background: #fff;
-    border:none;
-    border-radius: 3px;
-    padding: 5px;
-    color: #000;
-    font-weight: 300;
-    font-size:30px;
-    position: absolute;
-    top: 50%;
-    left:50%;
-    text-align: center;
-    transform: translate(-50%, -50%);
-    margin-top: 30px;
-}
-.overlay .button:hover{
-    color: #623262;
-    background: #f1b634;
-}
-.overlay1 .button:hover{
-    color: #623262;
-    background: #f1b634;
-}
-.overlay2 .button:hover{
-    color: #623262;
-    background: #f1b634;
-}
+
 .overlay3 .button:hover{
     color: #623262;
     background: #f1b634;
-}
-.overlay4 .button:hover{
-    color: #623262;
-    background: #f1b634;
-}
-.overlay5 .button:hover{
-    color: #623262;
-    background: #f1b634;
-}
-.overlay6 .button:hover{
-    color: #623262;
-    background: #f1b634;
-}
-.overlay7 .button:hover{
-    color: #623262;
-    background: #f1b634;
-}
-.overlay8 .button:hover{
-    color: #623262;
-    background: #f1b634;
-}
-.overlay9 .button:hover{
-    color: #623262;
-    background: #f1b634;
-}
-.overlay h4{
-    color: #fff;
-    font-weight: 600;
-    font-size:30px;
-    position: absolute;
-    top: 30%;
-    left:50%;
-    text-align: center;
-    transform: translate(-50%, -50%);
-}
-
-.overlay1 h4{
-    color: #fff;
-    font-weight: 600;
-    font-size:30px;
-    position: absolute;
-    top: 30%;
-    left:50%;
-    text-align: center;
-    transform: translate(-50%, -50%);
-}
-
-.overlay2 h4{
-    color: #fff;
-    font-weight: 600;
-    font-size:30px;
-    position: absolute;
-    top: 30%;
-    left:50%;
-    text-align: center;
-    transform: translate(-50%, -50%);
+    
 }
 
 .overlay3 h4{
@@ -402,113 +109,14 @@
     left:50%;
     text-align: center;
     transform: translate(-50%, -50%);
+    font-family: 'Poetsen One';
 }
 
-.overlay4 h4{
-    color: #fff;
-    font-weight: 600;
-    font-size:30px;
-    position: absolute;
-    top: 30%;
-    left:50%;
-    text-align: center;
-    transform: translate(-50%, -50%);
-}
-
-.overlay5 h4{
-    color: #fff;
-    font-weight: 600;
-    font-size:30px;
-    position: absolute;
-    top: 30%;
-    left:50%;
-    text-align: center;
-    transform: translate(-50%, -50%);
-}
-
-.overlay6 h4{
-    color: #fff;
-    font-weight: 600;
-    font-size:30px;
-    position: absolute;
-    top: 30%;
-    left:50%;
-    text-align: center;
-    transform: translate(-50%, -50%);
-}
-
-.overlay7 h4{
-    color: #fff;
-    font-weight: 600;
-    font-size:30px;
-    position: absolute;
-    top: 30%;
-    left:50%;
-    text-align: center;
-    transform: translate(-50%, -50%);
-}
-
-.overlay8 h4{
-    color: #fff;
-    font-weight: 600;
-    font-size:30px;
-    position: absolute;
-    top: 30%;
-    left:50%;
-    text-align: center;
-    transform: translate(-50%, -50%);
-}
-.overlay9 h4{
-    color: #fff;
-    font-weight: 600;
-    font-size:30px;
-    position: absolute;
-    top: 30%;
-    left:50%;
-    text-align: center;
-    transform: translate(-50%, -50%);
-}
-
-.imagen:hover .overlay{
-    height:100%;
-    cursor: pointer;
-}
-.imagen:hover .overlay1{
-    height:100%;
-    cursor: pointer;
-}
-.imagen:hover .overlay2{
-    height:100%;
-    cursor: pointer;
-}
 .imagen:hover .overlay3{
     height:100%;
     cursor: pointer;
 }
-.imagen:hover .overlay4{
-    height:100%;
-    cursor: pointer;
-}
-.imagen:hover .overlay5{
-    height:100%;
-    cursor: pointer;
-}
-.imagen:hover .overlay6{
-    height:100%;
-    cursor: pointer;
-}
-.imagen:hover .overlay7{
-    height:100%;
-    cursor: pointer;
-}
-.imagen:hover .overlay8{
-    height:100%;
-    cursor: pointer;
-}
-.imagen:hover .overlay9{
-    height:100%;
-    cursor: pointer;
-}
+
 
 @media screen and (max-width:1000px){
     .contenedor-imagenes{
@@ -546,5 +154,6 @@
     }
     .seccion-logo{
         width: 100%;
+        margin-top: 50px;
     }
 }

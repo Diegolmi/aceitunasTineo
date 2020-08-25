@@ -1,3 +1,13 @@
+/*IMPORTAR TIPOGRAFIA*/
+@font-face{
+    font-family: "Homework";
+    src: url("../../Fonts/FontsFree-Net-Homework.ttf");
+}
+@font-face{
+    font-family: "Poetsen One";
+    src: url(../../Fonts/PoetsenOne-Regular.ttf);
+}
+
 .contenedor-about{
     height: 45vh;
     display: flex;
@@ -9,6 +19,7 @@
 .titulo-about{
     text-align: center;
     margin: 50px 0;
+    font-family: 'Poetsen One';
 }
 
 .container-text-about{
@@ -20,7 +31,11 @@
 .text-about{
     width: 50%;
     text-align: center;
-
+    font-family: 'Homework';
+    font-size: 1.6rem;
+}
+.text-about span{
+    font-family: 'Poetsen One';
 }
 blockquote{
     text-align: right;
@@ -30,5 +45,6 @@ blockquote{
 @media screen and (max-width:600px){
     .text-about{
         width: 100%;
+        margin: 0 15px;
     }
 }
