@@ -14,61 +14,49 @@ const DoyPackGrande = () => {
      
       <div className="container-info-product">
         <div className="image-container">
-          <img src={DescarozadaSachet} alt="" />
+          <img src={VerdeSachet} alt="" />
         </div>
         <div>
-          <h3 className="product-name">Cobertura para Pizza</h3>
+          <h3 className="product-name">Aceitunas verdes</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum,
-            odit! Laudantium illo reiciendis doloribus veritatis quasi
-            laboriosam nesciunt distinctio reprehenderit dolorum debitis, nemo
-            id corrupti nisi odit dolorem quas aperiam?
+          Ideales para acompañar tus picadas y pizzas.
           </p>
           <h3 className="product-name">presentacion</h3>
           <ul>
-            <li><FaCheck className="icon-product"/> <span> 100gm</span></li>
-            <li><FaCheck className="icon-product"/> <span> 100gm</span></li>
-            <li><FaCheck className="icon-product"/> <span> 100gm</span></li>
+            <li><FaCheck className="icon-product"/> <span> 100g escurrido</span></li>
+            <li><FaCheck className="icon-product"/> <span> 190g neto</span></li>
           </ul>
         </div>
       </div>
       <div className="container-info-product1">
         <div>
-          <h3 className="product-name">Aceitunas Verdes</h3>
+          <h3 className="product-name">Aceitunas verdes descarozadas</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum,
-            odit! Laudantium illo reiciendis doloribus veritatis quasi
-            laboriosam nesciunt distinctio reprehenderit dolorum debitis, nemo
-            id corrupti nisi odit dolorem quas aperiam?
+           Usa tu imaginación en la cocina con unas ricas descarozadas en tus platos y ensaladas.
           </p>
           <h3 className="product-name">presentacion</h3>
           <ul>
-            <li><FaCheck className="icon-product"/> <span> 100gm</span></li>
-            <li><FaCheck className="icon-product"/> <span> 100gm</span></li>
-            <li><FaCheck className="icon-product"/> <span> 100gm</span></li>
+          <li><FaCheck className="icon-product"/> <span> 100g escurrido</span></li>
+            <li><FaCheck className="icon-product"/> <span> 190g neto</span></li>
           </ul>
         </div>
         <div className="image-container">
-          <img src={RellenaSachet} alt="" />
+          <img src={DescarozadaSachet} alt="" />
         </div>
       </div>
       <div className="container-info-product">
         <div className="image-container">
-          <img src={VerdeSachet} alt="" />
+          <img src={RellenaSachet} alt="" />
         </div>
         <div>
-          <h3 className="product-name">Aceitunas C/ Morron</h3>
+          <h3 className="product-name">Aceitunas rellenas con pasta de morrón</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum,
-            odit! Laudantium illo reiciendis doloribus veritatis quasi
-            laboriosam nesciunt distinctio reprehenderit dolorum debitis, nemo
-            id corrupti nisi odit dolorem quas aperiam?
+          Ideales para tus picadas y pizzas, y obviamente para el pionono de Navidad y el vitel toné.
           </p>
           <h3 className="product-name">presentacion</h3>
           <ul>
-            <li><FaCheck className="icon-product"/> <span> 100gm</span></li>
-            <li><FaCheck className="icon-product"/> <span> 100gm</span></li>
-            <li><FaCheck className="icon-product"/> <span> 100gm</span></li>
+          <li><FaCheck className="icon-product"/> <span> 100g escurrido</span></li>
+            <li><FaCheck className="icon-product"/> <span> 190g neto</span></li>
           </ul>
         </div>
       </div>  

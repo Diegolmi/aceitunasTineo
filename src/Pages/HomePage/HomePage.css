@@ -10,14 +10,14 @@
 
 .seccion-principal{
     width: 100%;
-    height: 100%;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background: #fff; */
+    background: #FFB71C;
     /* background: lightblue; */
-    background: url('../../assets/img/aceituna-imagen.jpg')no-repeat center center;
-    background-size: cover;
+    /* background: url('../../assets/img//PORTADA_Mesa-de-trabajo.jpg')no-repeat center center;
+    background-size: cover; */
 }
 
 .seccion-logo{

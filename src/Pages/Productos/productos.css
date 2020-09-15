@@ -40,6 +40,9 @@
     text-align: center;
     border-bottom: 3px solid #623262;
 }
+.container-info-product:last-child{
+    border-bottom: none;
+}
 .container-info-product1:last-child{
     border-bottom: none;
 }

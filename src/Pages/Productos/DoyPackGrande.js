@@ -14,42 +14,98 @@ const DoyPackGrande = () => {
   return (
     <div className="product-container">
       
-        <h1 className="title-product">Nuestros Productos</h1>
+        <h1 className="title-product">Packs Grandes</h1>
      
       <div className="container-info-product">
         <div className="image-container">
-          <img src={Descarozadax160} alt="" />
+          <img src={Verdex180} alt="" />
         </div>
         <div>
-          <h3 className="product-name">Cobertura para Pizza</h3>
+          <h3 className="product-name">Aceitunas verdes</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum,
-            odit! Laudantium illo reiciendis doloribus veritatis quasi
-            laboriosam nesciunt distinctio reprehenderit dolorum debitis, nemo
-            id corrupti nisi odit dolorem quas aperiam?
+            Ideales para acompañar tus picadas y pizzas.
           </p>
           <h3 className="product-name">presentacion</h3>
           <ul>
-            <li><FaCheck className="icon-product"/> <span> 100gm</span></li>
-            <li><FaCheck className="icon-product"/> <span> 100gm</span></li>
-            <li><FaCheck className="icon-product"/> <span> 100gm</span></li>
+            <li><FaCheck className="icon-product"/> <span> 180g escurrido</span></li>
+            <li><FaCheck className="icon-product"/> <span> 300g neto</span></li>
           </ul>
         </div>
       </div>
       <div className="container-info-product1">
         <div>
-          <h3 className="product-name">Aceitunas Verdes</h3>
+          <h3 className="product-name">Aceitunas verdes Premium</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum,
-            odit! Laudantium illo reiciendis doloribus veritatis quasi
-            laboriosam nesciunt distinctio reprehenderit dolorum debitis, nemo
-            id corrupti nisi odit dolorem quas aperiam?
+            Aceitunas verdes muy carnosas. Sólo para fanáticos.
           </p>
           <h3 className="product-name">presentacion</h3>
           <ul>
-            <li><FaCheck className="icon-product"/> <span> 100gm</span></li>
-            <li><FaCheck className="icon-product"/> <span> 100gm</span></li>
-            <li><FaCheck className="icon-product"/> <span> 100gm</span></li>
+          <li><FaCheck className="icon-product"/> <span> 180g escurrido</span></li>
+            <li><FaCheck className="icon-product"/> <span> 300g neto</span></li>
+          </ul>
+        </div>
+        <div className="image-container">
+          <img src={Premiumx180} alt="" />
+        </div>
+      </div>
+      <div className="container-info-product">
+        <div className="image-container">
+          <img src={Descarozadax160} alt="" />
+        </div>
+        <div>
+          <h3 className="product-name">Aceitunas verdes descarozadas</h3>
+          <p>
+            Usa tu imaginación en la cocina con unas ricas descarozadas en tus platos y ensaladas.
+          </p>
+          <h3 className="product-name">presentacion</h3>
+          <ul>
+          <li><FaCheck className="icon-product"/> <span> 160g escurrido</span></li>
+            <li><FaCheck className="icon-product"/> <span> 300g neto</span></li>
+          </ul>
+        </div>
+      </div>
+      <div className="container-info-product1">
+        <div>
+          <h3 className="product-name">Aceitunas verdes rodajadas</h3>
+          <p>
+          Las empanadas, pasteles de papa y ensaladas se van a distinguir con estas delicias en rodajas.
+          </p>
+          <h3 className="product-name">presentacion</h3>
+          <ul>
+          <li><FaCheck className="icon-product"/> <span> 160g escurrido</span></li>
+            <li><FaCheck className="icon-product"/> <span> 300g neto</span></li>
+          </ul>
+        </div>
+        <div className="image-container">
+          <img  src={Rodajadax160} alt="" />
+        </div>
+      </div>
+      <div className="container-info-product">
+        <div className="image-container">
+          <img src={Rellenax180} alt="" />
+        </div>
+        <div>
+          <h3 className="product-name">Aceitunas rellenas con pasta de morrón</h3>
+          <p>
+          Ideales para tus picadas y pizzas, y obviamente para el pionono de Navidad
+          </p>
+          <h3 className="product-name">presentacion</h3>
+          <ul>
+          <li><FaCheck className="icon-product"/> <span> 180g escurrido</span></li>
+            <li><FaCheck className="icon-product"/> <span> 300g neto</span></li>
+          </ul>
+        </div>
+      </div>
+      <div className="container-info-product1">
+        <div>
+          <h3 className="product-name">Aceitunas negras naturales</h3>
+          <p>
+          Un sabor único que marca un antes y un después en tu paladar. Súper carnosas, probalas!
+          </p>
+          <h3 className="product-name">presentacion</h3>
+          <ul>
+          <li><FaCheck className="icon-product"/> <span> 180g escurrido</span></li>
+            <li><FaCheck className="icon-product"/> <span> 300g neto</span></li>
           </ul>
         </div>
         <div className="image-container">
@@ -61,98 +117,14 @@ const DoyPackGrande = () => {
           <img src={Picklex180} alt="" />
         </div>
         <div>
-          <h3 className="product-name">Aceitunas C/ Morron</h3>
+          <h3 className="product-name">Pickles mixtos en vinagre</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum,
-            odit! Laudantium illo reiciendis doloribus veritatis quasi
-            laboriosam nesciunt distinctio reprehenderit dolorum debitis, nemo
-            id corrupti nisi odit dolorem quas aperiam?
+          Una variedad de vegetales encurtidos perfectos para tus ensaladas y picadas.
           </p>
           <h3 className="product-name">presentacion</h3>
           <ul>
-            <li><FaCheck className="icon-product"/> <span> 100gm</span></li>
-            <li><FaCheck className="icon-product"/> <span> 100gm</span></li>
-            <li><FaCheck className="icon-product"/> <span> 100gm</span></li>
-          </ul>
-        </div>
-      </div>
-      <div className="container-info-product1">
-        <div>
-          <h3 className="product-name">Aceitunas Premium</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum,
-            odit! Laudantium illo reiciendis doloribus veritatis quasi
-            laboriosam nesciunt distinctio reprehenderit dolorum debitis, nemo
-            id corrupti nisi odit dolorem quas aperiam?
-          </p>
-          <h3 className="product-name">presentacion</h3>
-          <ul>
-            <li><FaCheck className="icon-product"/> <span> 100gm</span></li>
-            <li><FaCheck className="icon-product"/> <span> 100gm</span></li>
-            <li><FaCheck className="icon-product"/> <span> 100gm</span></li>
-          </ul>
-        </div>
-        <div className="image-container">
-          <img  src={Premiumx180} alt="" />
-        </div>
-      </div>
-      <div className="container-info-product">
-        <div className="image-container">
-          <img src={Rellenax180} alt="" />
-        </div>
-        <div>
-          <h3 className="product-name">Aceitunas Negras</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum,
-            odit! Laudantium illo reiciendis doloribus veritatis quasi
-            laboriosam nesciunt distinctio reprehenderit dolorum debitis, nemo
-            id corrupti nisi odit dolorem quas aperiam?
-          </p>
-          <h3 className="product-name">presentacion</h3>
-          <ul>
-            <li><FaCheck className="icon-product"/> <span> 100gm</span></li>
-            <li><FaCheck className="icon-product"/> <span> 100gm</span></li>
-            <li><FaCheck className="icon-product"/> <span> 100gm</span></li>
-          </ul>
-        </div>
-      </div>
-      <div className="container-info-product1">
-        <div>
-          <h3 className="product-name">Aceitunas Rodajadas</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum,
-            odit! Laudantium illo reiciendis doloribus veritatis quasi
-            laboriosam nesciunt distinctio reprehenderit dolorum debitis, nemo
-            id corrupti nisi odit dolorem quas aperiam?
-          </p>
-          <h3 className="product-name">presentacion</h3>
-          <ul>
-            <li><FaCheck className="icon-product"/> <span> 100gm</span></li>
-            <li><FaCheck className="icon-product"/> <span> 100gm</span></li>
-            <li><FaCheck className="icon-product"/> <span> 100gm</span></li>
-          </ul>
-        </div>
-        <div className="image-container">
-          <img src={Rodajadax160} alt="" />
-        </div>
-      </div>
-      <div className="container-info-product">
-        <div className="image-container">
-          <img src={Verdex180} alt="" />
-        </div>
-        <div>
-          <h3 className="product-name">Aceitunas Descarozadas</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum,
-            odit! Laudantium illo reiciendis doloribus veritatis quasi
-            laboriosam nesciunt distinctio reprehenderit dolorum debitis, nemo
-            id corrupti nisi odit dolorem quas aperiam?
-          </p>
-          <h3 className="product-name">presentacion</h3>
-          <ul>
-            <li><FaCheck className="icon-product"/> <span> 100gm</span></li>
-            <li><FaCheck className="icon-product"/> <span> 100gm</span></li>
-            <li><FaCheck className="icon-product"/> <span> 100gm</span></li>
+          <li><FaCheck className="icon-product"/> <span> 180g escurrido</span></li>
+            <li><FaCheck className="icon-product"/> <span> 300g neto</span></li>
           </ul>
         </div>
       </div>

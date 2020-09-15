@@ -1,6 +1,5 @@
 import React from "react";
 import img1 from "../../assets/img/PNG/DoyPackChico/Verdex100.jpg";
-import { Link } from "react-router-dom";
 
 
 const GaleriaImagenes = () => {
@@ -12,28 +11,28 @@ const GaleriaImagenes = () => {
           <img src={img1} alt="" />
           <div className="overlay3">
           <h4>Pack Chico</h4>
-            <a  href="productos" className="button">Ver Más</a>
+            <a  href="/productos/packchico" className="button">Ver Más</a>
           </div>
         </div>
         <div className="imagen">
           <img src={img1} alt="" />
           <div className="overlay3">
           <h4>Pack Grande</h4>
-            <a href="productos" className="button">Ver Más</a>
+            <a href="/productos/packgrande" className="button">Ver Más</a>
           </div>
         </div>
         <div className="imagen">
           <img src={img1} alt="" />
           <div className="overlay3">
           <h4>Sachet</h4>
-            <a href="productos" className="button">Ver Más</a>
+            <a href="/productos/sachet" className="button">Ver Más</a>
           </div>
         </div>
         <div className="imagen">
           <img src={img1} alt="" />
           <div className="overlay3">
           <h4>Frascos</h4>
-            <Link to="productos" className="button">Ver Más</Link>
+            <a href="/productos/frasco" className="button">Ver Más</a>
           </div>
         </div>
       </div>

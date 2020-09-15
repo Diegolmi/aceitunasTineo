@@ -1,6 +1,6 @@
 import React from "react";
 import "./HomePage.css";
-import logo from "../../assets/img/logoTineo.png";
+import logo from "../../assets/img/PORTADA_Mesa-de-trabajo1.png";
 import GaleriaImagenes from "./GaleriaImagenes";
 import About from "../../components/About/About";
 import ContactForm from "../SeccionContacto/ContactForm";
