@@ -34,7 +34,7 @@ const GaleriaImagenes = () => {
         <div className="imagen">
           <img src={AjiFrasco} alt="" />
           <div className="overlay3">
-          <h4>Frascos</h4>
+          <h4>Frascoss</h4>
             <a href="/productos/frasco" className="button">Ver Más</a>
           </div>
         </div>
