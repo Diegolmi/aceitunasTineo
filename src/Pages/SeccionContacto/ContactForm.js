@@ -1,7 +1,7 @@
 import React from "react";
 import "./ContactForm.css";
 import Button from "react-bootstrap/Button";
-import { GoLocation } from "react-icons/go";
+//import { GoLocation } from "react-icons/go";
 import { FiPhoneCall } from "react-icons/fi";
 import {
   FaEnvelopeOpenText,
@@ -19,7 +19,7 @@ const ContactForm = () => {
   const onSubmit = (data, e) => {
     emailjs.sendForm('gmail', 'tineo', e.target, 'user_CMsRBn8CiwNjrNcmBhZxS')
     .then((result) => {
-      console.log(result);
+      //console.log(result);
       Swal.fire({
         position: 'center',
         icon: 'success',

@@ -1,6 +1,6 @@
 import React from "react";
 import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
-import { Link } from 'react-router-dom'
+//import { Link } from 'react-router-dom'
 import './FooterPage.css';
 import { FaFacebookSquare, FaInstagram } from 'react-icons/fa';
 import Logo from '../../assets/img/logoTineo.png';
