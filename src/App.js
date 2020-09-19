@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { Routes, Route } from "react-router";
 import NavbarPage from "./components/Navbar/NavbarPage";
 import Landing from "./Pages/Landing";
 import FooterPage from "./components/Footer/FooterPage";
@@ -13,17 +13,15 @@ import Frasco from "./Pages/Productos/Frasco";
 function App() {
   return (
     <>
-      <Router>
       <NavbarPage />
-        <Switch>
-          <Route exact path="/" component={Landing} />
-          <Route exact path="/productos/packchico" component={DoyPackChico} />
-          <Route exact path="/productos/packgrande" component={DoyPackGrande} />
-          <Route exact path="/productos/sachet" component={Sachet} />
-          <Route exact path="/productos/frasco" component={Frasco} />
-        </Switch>
+        <Routes>
+          <Route exact path="/" element={<Landing />} />
+          <Route exact path="/productos/packchico" element={<DoyPackChico />} />
+          <Route exact path="/productos/packgrande" element={<DoyPackGrande />} />
+          <Route exact path="/productos/sachet" element={<Sachet />} />
+          <Route exact path="/productos/frasco" element={<Frasco />} />
+        </Routes>
         <FooterPage />
-      </Router>
     </>
   );
 }
